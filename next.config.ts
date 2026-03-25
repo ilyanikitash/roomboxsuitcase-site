@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+/** При выносе картинок на CDN добавьте `images.remotePatterns` в документации Next.js. */
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
