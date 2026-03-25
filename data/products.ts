@@ -31,9 +31,9 @@ export const CATEGORY_LABELS: Record<ProductCategoryId, string> = {
 
 /** Папки каталога в `public/products/` (имена как на диске). */
 export const PRODUCT_ASSET_DIRS = {
-  asianQuarter: "Азиатсикий квартал",
-  easternStories: "Восточные истории",
-  teaWithTasteOfSummer: "Картина по номерам Чай с привкусом лета",
+  asianQuarter: "asian-quarter",
+  easternStories: "eastern-stories",
+  teaWithTasteOfSummer: "tea-with-summer",
 } as const;
 
 const asianDir = PRODUCT_ASSET_DIRS.asianQuarter;
@@ -42,30 +42,30 @@ const teaWithTasteOfSummerDir = PRODUCT_ASSET_DIRS.teaWithTasteOfSummer;
 
 /** Порядок фото: общие ракурсы, затем детали. */
 const ASIAN_IMAGE_FILES = [
-  "Азиатский квартал Открытый.jpg",
-  "Азиатский квартал Закрытый(прямо).jpg",
-  "Азиатский квартал Закрытый(сбоку).jpg",
-  "Азиатский квартал_детали1.jpg",
-  "Азиатский квартал_детали2.jpg",
-  "Азиатский квартал_детали3.jpg",
-  "Азиатский квартал_детали4.jpg",
-  "Азиатский квартал_детали5.jpg",
+  "asian-quarter-1.jpg",
+  "asian-quarter-2.jpg",
+  "asian-quarter-3.jpg",
+  "asian-quarter-4.jpg",
+  "asian-quarter-5.jpg",
+  "asian-quarter-6.jpg",
+  "asian-quarter-7.jpg",
+  "asian-quarter-8.jpg",
 ] as const;
 
 const EASTERN_IMAGE_FILES = [
-  "Восточные истории_спереди.jpg",
-  "Восточные истории_несколько_видов.jpg",
-  "Восточные истории_сбоку.jpg",
-  "Восточные истории_сзади.jpg",
-  "Восточные истории_детали1.jpg",
-  "Восточные истории_детали2.jpg",
-  "Восточные истории_детали3.jpg",
-  "Восточные истории_детали4.jpg",
+  "eastern-stories-1.jpg",
+  "eastern-stories-2.jpg",
+  "eastern-stories-3.jpg",
+  "eastern-stories-4.jpg",
+  "eastern-stories-5.jpg",
+  "eastern-stories-6.jpg",
+  "eastern-stories-7.jpg",
+  "eastern-stories-8.jpg",
 ] as const;
 
 const TEA_WITH_TASTE_OF_SUMMER_IMAGE_FILES = [
-  "Картина по номерам Чай с привкусом лета_общее фото.jpg",
-  "Картина по номерам Чай с привкусом лета_живое_фото.jpeg",
+  "tea-with-summer-1.jpg",
+  "tea-with-summer-2.jpeg",
 ] as const;
 
 export const ROOMBOX_INSTRUCTION_PDFS = {
